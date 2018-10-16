@@ -1,3 +1,3 @@
-# Didgital Tech History
+# Digital Tech History
 
 ![](historytech.png)
