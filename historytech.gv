@@ -1,0 +1,167 @@
+graph digitaltech {
+      // https://www.computerhope.com/issues/ch000984.htm
+      node [fontsize = 10, shape = record];
+      // scale1847 [ shape = record, pos = "0, 11.625!" , label = "1847"];
+      turning  [ pos = "3, 0.5!" , label = "The Turning Machine (concept 1936)"];
+      scale1940 [ pos = "0, 0!" , label = "1940"];
+      diodes [ shape = plaintext, pos = "4.5, -0.125!" , label = <Solid State Diodes<br />Radar>];
+      logic [ pos = "7, 0.25!" , label = <A Symbolic Analysis of Relay and <br />Switching Circuits
+                  Shannon>];
+      scale1945 [ shape = record, pos = "0, -0.625!" , label = "1945"];
+      colossus  [ shape = record, pos = "2.2, -0.375!" , label = <
+                 Colossus first electronic computer<br />
+                 for code breaking - vacuum tubes>];   
+      scale1950 [ pos = "0, -1.250!" , label = "1950"];
+      hp [ pos = "7, -0.875!" , label = <Hewlett-Packard<br />Founded>];
+      ShockleyLab [ pos = "2, -2.125!" , label = <Shockley Semiconductor Laboratory<br />Founded>];
+      siliconVal1[ pos = "3.3, -1.375!" , label = <Standford Industrial Park<br /> Founded>];
+      firsttransitor [ pos = "5.3, -0.875!" , label = "First Transistor"];
+      transistorRadio [ pos = "5.3, -1.75!" , label = "Transistor Radio"];
+      sputnik1 [ pos = "4.0, -2.125!" , label = "Sputnik 1"];
+      FairchildSemi [ fontsize = 8, shape = plaintext, pos = "6.4, -2.125!" , label = "Fairchild Semiconductor"];
+      fortran [ shape = plaintext, pos = "7.9, -2.125!" , label = "Fortran Language"];
+      scale1955 [ shape = record, pos = "0, -1.875!" , label = "1955"];
+      lisp [ shape = plaintext, pos = "8.1, -2.25!" , label = "Lisp Language"];
+      Kilby [ shape = plaintext, pos = "5.5, -2.25!" , label = <First Integrated Circuit (Kilby)>];
+      mosfet [ fontsize = 8, shape = plaintext, pos = "5.5, -2.375!" , label = "First MOSFET Transistor"];
+      scale1960 [ pos = "0, -2.5!" , label = "1960"];
+      rs232 [ fontsize = 8, shape = plaintext, pos = "3.5, -2.5!" , label = "RS-232"];
+      rtlIC [ fontsize = 8, shape = plaintext, pos = "7.8, -2.625!" , label="RTL - Integrated Circuit"]
+      fptransistor [ shape = plaintext, pos = "7.1, -2.5!" , label = "First Planar Tansistor"];
+      cmos [ fontsize = 8, shape = plaintext, pos = "7.5, -3.5!" , label="CMOS - Integrated Circuit"];
+      engelbart   [
+          shape=record, pos = "1.7, -2.75!",
+          label = <Augmenting the Human Intellect: <br />A Conceptual Framework<br />Douglas Engelbart>];
+ 
+      minuteman1 [ shape = plaintext, pos = "5.8, -2.75!" , fontsize = 8,
+          label = <Autonetics D-17B computer<br />Guidance and control of<br /> the Minuteman I ICBM. >];
+      minuteman2 [ shape = plaintext, pos = "4, -3!" , fontsize = 8,
+          label = <Autonetics D-37C computer<br />Guidance and control of<br /> the Minuteman II ICBM. >];
+      ttlIC [ fontsize = 8, shape = plaintext, pos = "7.5, -2.875!" , label="TTL - Integrated Circuit"]
+      
+      scale1965 [ shape = record, pos = "0, -3.125!" , label = "1965"];
+      agc  [ shape = plaintext, pos = "6.5, -3.125!" , label = "Apollo Guidance Computer" ];
+      ARPANET [ shape = record, pos = "3.2, -3.625!" , label = "ARPANET" ];
+      pdp8 [ shape = plaintext, pos = "1.5, -3.125!" , label = "PDP-8"];
+      ascii [ shape = plaintext, pos = "2.3, -3.125!" , label = "ASCII"];
+      pdp11 [ shape = plaintext, pos = "1.4, -3.75!" , label = "PDP-11"];
+      logicKit [ shape = plaintext, pos = "0.8, -3.875!" , label = <Tandy<br />Logic Kit>];
+      UNIX [ pos = "4.5, -3.75!", label = "UNIX" ];
+      fadec [ fontsize = 8, shape = plaintext, pos = "1.8, -3.5!", label = <full authority<br /> digital engine control<br /> (FADEC)> ];
+      IntelCorporation [  shape = plaintext, pos = "5.5, -3.5!", label = "Intel Corporation" ];
+      apollo [ shape = plaintext, pos = "6.5, -3.625!" , label = "Apollo 11"  ]
+      c [ shape = plaintext, pos = "3.9, -4.0!", label = <C<br /> Language> ];
+      plc084 [ shape = plaintext, pos = "8.2, -3.625!" , label="PLC 084"]; //1969
+      scale1970 [ pos = "0, -3.75!" , label = "1970"];
+      dflybwire [ shape = plaintext, pos = "2.2, -4.0!", label = <Digital<br />Fly By Wire<br /> F-8 Crusader> ]; //1972
+      intel4004 [ shape = plaintext, pos = "7, -3.875!" , label = "Intel 4004 CPU"];
+      packetRadio [ shape = plaintext, pos = "7, -4.125!" , label = "Packet Radio"]; // 1973
+      scale1975 [ shape = record, pos = "0, -4.375!" , label = "1975" ];
+      microsoft [ shape = plaintext, pos = "5.5, -4.375!" , label = "Microsoft founded" ];
+      PICmcu [ shape = plaintext, pos = "6.8, -4.5!" , label = "PIC MCU" ];  // 1976
+      intel8080 [ shape = plaintext , pos = "6.5, -4.25!" , label = "Intel 8080" ];
+      altair [ shape = plaintext, pos = "5.5, -4.25!" , label = "Altair 8800" ]; 
+      z80 [ shape = record, pos = "8, -4.25!" , label = "Z80" ]; 
+      applef [ shape = plaintext, pos = "5.5, -4.5!" , label = "Apple founded" ];
+      tsr80 [ shape = plaintext, pos = "5.5, -4.625!" , label = "TRS-80" ];
+      gps [ shape = plaintext, pos = "1.2, -4.75!" , label = "GPS" ];  // 1978
+      pal [ shape = plaintext, pos = "6.2, -4.75!" , label = "PAL" ];  // 1978
+      intel8086 [ shape = plaintext, pos = "7, -4.875!" , label = "Intel 8086 CPU"];
+      mc6802 [ shape = plaintext, pos = "6.7, -4.625!" , label = "MC6802" ]; 
+      mc6809 [ shape = plaintext, pos = "6.9, -4.75!" , label = "MC6809" ];
+      mc68000 [ shape = plaintext, pos = "8.1, -4.875!" , label = "MC68000" ];
+      cpp [ shape = plaintext, pos = "3.8, -4.877!", label = <C++<br /> Language> ];
+	  scale1980 [ pos = "0, -5!" , label = "1980"];
+	  palasm [ shape = plaintext, pos = "5.8, -5!" , label = "PALASM" ];  // 1980
+      linux [ pos = "4.5, -6.375!", label = "Linux" ];
+      pc [ shape = plaintext, pos = "5.5, -5.125!" , label = "IBM PC" ];  // 1981
+      bbcMicro [ shape = plaintext, pos = "8.1, -5.125!" , label = "BBC Micro" ];
+      MPUecu [ shape = plaintext, pos = "1.4, -5.125!" , label = "MPU Engine Control Units" ];
+      Internet [ shape = record, pos = "2.8, -5.25!" , label = "Internet" ]; // 1982
+      intel80286 [ shape = plaintext, pos = "7, -5.25!" , label = "Intel 80286 CPU"];
+      commodore64 [ shape = plaintext, pos = "5.1, -5.25!" , label = "Commodore 64" ];  // 1982
+      xt [ shape = plaintext, pos = "5.5, -5.375!" , label = "IBM XT" ];  // 1983
+      ethernet [ shape = plaintext, pos = "1.2, -5.375!" , label = "Ethernet" ];  // 1983
+      Gnu [ shape = record, pos = "3.8, -5.375!" , label = "GNU" ];  // 1983
+      mac [ shape = plaintext, pos = "5.4, -5.5!" , label = "Apple MAC" ];  // 1984
+      clisp [ shape = plaintext, pos = "7.1, -5.5!" , label = "Common Lisp" ];  // 1984
+	  scale1985 [ pos = "0, -5.625!" , label = "1985"];
+      mc68HC11 [ shape = plaintext, pos = "6.9, -5.625!" , label = "MC68HC11" ]; //1985
+      gal [ shape = plaintext, pos = "6.2, -5.625!" , label = "GAL" ]; //1985
+      acornARM [ shape = record, pos = "8.1, -5.625!" , label = "Acorn ARM" ]; //1985
+      PubInternet [ shape = record, pos = "3.2, -6.125!" , label = <Internet<br />Public Commercial> ]; // 1989
+      latex [ shape = plaintext, pos = "5.0, -5.625!", label = <LaTeX> ]; // 1985
+      Perl [ shape = plaintext, pos = "5.8, -5.875!", label = <Perl<br /> Language> ]; // 1987
+	  scale1990 [ pos = "0, -6.25!" , label = "1990"];
+      tcl [ shape = plaintext, pos = "5.4, -6.25!", label = <Tcl<br /> Language> ]; // 1990
+      haskell [ shape = plaintext, pos = "8.0, -6.25!", label = "Haskell Language" ]; // 1990
+      python [ shape = plaintext, pos = "6.3, -6.375!", label = <Python<br /> Language> ]; // 1991
+      www [ shape = record, pos = "1.6, -6.375!" , label = "World Wide Web" ]; // 1991
+      basicstamp [ shape = plaintext, pos = "3.4, -6.5!" , label = "BASIC Stamp 1" ]; // 1992
+      lua [ shape = plaintext, pos = "5.8, -6.625!", label = <Lua<br /> Language> ]; // 1993
+      pentium [ shape = record, pos = "8, -6.625!", label = <Intel Pentium> ]; // 1993
+      html [ shape = plaintext, pos = "2.6, -6.625!" , label = "HTML" ]; // 1993
+      PIC16C84 [ shape = plaintext, pos = "7, -6.625!" , label = "PIC16C84" ]; // 1993
+      PDF [ shape = plaintext, pos = "0.7, -6.625!" , label = "PDF" ]; // 1993
+	  scale1995 [ pos = "0, -6.875!" , label = "1995"];
+      java [ shape = plaintext, pos = "3.8, -6.875!", label = <Java<br /> Language> ]; //1995
+	  PHP [ shape = plaintext, pos = "2.2, -6.875!", label = <PHP<br /> Language> ]; // 1995
+      mc68HC12 [ shape = plaintext, pos = "6.1, -7.00!" , label = "MC68HC12" ]; //1996
+      avr [ shape = plaintext, pos = "7.3, -7.00!" , label = "AVR Atmel MCU" ]; //1996
+      PIC16F84A [ shape = plaintext, pos = "3.8, -7.25!" , label = "PIC16F84A" ]; // 1998
+      google [ shape = plaintext, pos = "1.8, -7.25!" , label = "Google Launched" ]; // 1998
+      wifi [ shape = plaintext, pos = "0.7, -7.25!" , label = "Wi-Fi" ]; // 1998
+      sourceForge [ shape = plaintext, pos = "1, -7.375!" , label = "Source Forge" ]; // 1999
+      xhtml [ shape = plaintext, pos = "2.6, -7.5!" , label = "XHTML" ]; // 2000
+	  scale2000 [ pos = "0, -7.5!" , label = "2000"];
+      pentium4 [ shape = record, pos = "6.5, -7.5!", label = <Intel Pentium 4> ]; // 2000
+      adsl [ shape = plaintext, pos = "1.5, -7.625!", label = <ADSL over POTS> ]; // 2001
+      PIC16F877A [ shape = plaintext, pos = "3.8, -7.875!" , label = "PIC16F877A" ]; // 2003
+      memsMic [ shape = plaintext, pos = "6.5, -7.875!" , label = "MEMs Microphone" ]; // 2003
+      markdown [ shape = plaintext, pos = "1.8, -8.0!" , label = "Markdown" ]; // 2004	  
+      ARMm3 [ shape = record, pos = "8, -8.00!" , label = "ARM Cortex-M3" ]; //2004
+      memsAcc [ shape = plaintext, pos = "6.5, -8.00!" , label = "MEMs Accelerometers" ]; //2004
+	  scale2005 [ pos = "0, -8.125!" , label = "2005"];
+	  pandoc [ shape = plaintext, pos = "1.8, -8.25!" , label = "Pandoc"]; // 2006
+	  git [ pos = "1, -8.125!" , label = "Git"];
+	  ArdunoCan [ shape = plaintext, pos = "3.3, -8.375!", label = "Arduno available"]; // 2007
+	  iphone [ shape = record, pos = "6.8, -8.375!", label = "iPhone"]; // 2007
+	  android [ shape = record, pos = "4.5, -8.5!", label = "Android"]; // 2008
+	  PIC18F4525 [ shape = plaintext, pos = "3.6, -8.5!" , label = "PIC18F4525" ]; // 2008
+	  bitbucket [ shape = plaintext, pos = "1.7, -8.5!" , label = "Bitbucket" ]; // 2008
+      ARMm0 [ shape = record, pos = "8, -8.625!" , label = "ARM Cortex-M0" ]; //2009
+      github [ shape = plaintext, pos = "1, -8.625!" , label = "Github" ]; //2009
+      oled [ shape = plaintext, pos = "3.2, -8.625!" , label = "OLED Displays" ]; //2009
+	  scale2010 [ pos = "0, -8.75!" , label = "2010"];
+	  memsGyro [ shape = plaintext, pos = "1.8, -8.75!", label = "MEMs Gyroscope"];
+	  PIC32MX150F128B [ shape = plaintext, pos = "3.5, -8.875!" , label = "PIC32MX150F128B" ]; // 2011
+	  chromebook [ shape = plaintext, pos = "5.1, -8.875!" , label = "Google Chromebook" ]; // 2011
+	  raspberryPi [ pos = "6.4, -9!", label = <Raspberry Pi<br />ARM based> ]; // 2012
+	  html5 [ shape = plaintext, pos = "2.6, -9.25!" , label = "HTML5" ]; // 2014
+	  micropython [ shape = plaintext, pos = "1.2, -9.25!" , label = "MicroPython" ]; // 2014
+	  scale2015 [ pos = "0, -9.375!" , label = "2015"];
+	  MicrochipAtmel [ pos = "4.7, -9.5!", label = <Microchip Technology, Inc.<br /> Acquires Atmel> ]; // 2016
+      circuitpython [ shape = plaintext, pos = "1, -9.625!" , label = "CircuitPython" ]; // 2017
+	  raspberryPi3p [ pos = "6.5, -9.75!", label = <Raspberry Pi 3+<br />ARM based> ]; // 2018
+	  githubMicrosoft [ pos = "2.5, -9.75!", label = <Microsoft announced its<br /> intent to acquire GitHub<br /> for USD 7.5 billion>]; // 2018
+	  
+	  scale2020 [ pos = "0, -10!" , label = "2020"];
+
+      scale1940 -- scale1945      
+      scale1945 -- scale1950 -- scale1955 -- scale1960 -- scale1965 -- scale1970 -- scale1975;
+	  scale1975 -- scale1980 -- scale1985 -- scale1990 -- scale1995 -- scale2000 -- scale2005
+	  scale2005 -- scale2010 -- scale2015 -- scale2020 
+      UNIX -- c -- cpp
+      UNIX -- linux [ style = dashed];
+      linux -- android
+      linux -- chromebook
+      linux -- raspberryPi
+      raspberryPi -- raspberryPi3p
+      ARPANET -- Internet -- PubInternet -- www
+      Internet -- www
+      minuteman1 -- minuteman2
+      html -- xhtml -- html5
+      pal -- gal [ style = dashed ];
+}  // neato -Tpng historytech.gv -o historytech.png
+
+
