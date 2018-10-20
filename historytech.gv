@@ -139,9 +139,11 @@ graph digitaltech {
 	  raspberryPi [ pos = "6.4, -9!", label = <Raspberry Pi<br />ARM based> ]; // 2012
 	  html5 [ shape = plaintext, pos = "2.6, -9.25!" , label = "HTML5" ]; // 2014
 	  micropython [ shape = plaintext, pos = "1.2, -9.25!" , label = "MicroPython" ]; // 2014
+	  protrinket [ shape = plaintext, pos = "7.8, -9.25!" , label = "Pro Trinket 5V" ]; // 2014
 	  scale2015 [ pos = "0, -9.375!" , label = "2015"];
 	  MicrochipAtmel [ pos = "4.7, -9.5!", label = <Microchip Technology, Inc.<br /> Acquires Atmel> ]; // 2016
       circuitpython [ shape = plaintext, pos = "1, -9.625!" , label = "CircuitPython" ]; // 2017
+      trinketm0 [ shape = plaintext, pos = "7.8, -9.625!" , label = "Trinket M0" ]; // 2017
 	  raspberryPi3p [ pos = "6.5, -9.75!", label = <Raspberry Pi 3+<br />ARM based> ]; // 2018
 	  githubMicrosoft [ pos = "2.5, -9.75!", label = <Microsoft announced its<br /> intent to acquire GitHub<br /> for USD 7.5 billion>]; // 2018
 	  
