@@ -1,3 +1,3 @@
 # Digital Tech History
 
-![](historytech.png)
+![](historytech.svg)

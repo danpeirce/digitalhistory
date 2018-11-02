@@ -166,4 +166,6 @@ graph digitaltech {
       pal -- gal [ style = dashed ];
 }  // neato -Tpng historytech.gv -o historytech.png
 
+// neato -Tsvg historytech.gv -o historytech.svg
+
 
